@@ -16,8 +16,8 @@ backup=('etc/crypttab' 'etc/fstab' 'etc/group' 'etc/gshadow' 'etc/host.conf'
 source=('crypttab' 'env-generator' 'fstab' 'group' 'gshadow' 'host.conf' 'hosts'
         'issue' 'ld.so.conf' 'locale.sh' 'nsswitch.conf' 'os-release'
         'passwd' 'profile' 'resolv.conf' 'securetty' 'shadow' 'shells' 'sysctl'
-        'sysusers' 'tmpfiles' 'archlinux-logo.svg' 'archlinux-logo.png'
-        'archlinux-logo-text.svg' 'archlinux-logo-text-dark.svg')
+        'sysusers' 'tmpfiles' 'avdanos-logo.svg' 'avdanos-logo.png'
+        'avdanos-logo-text.svg' 'avdanos-logo-text-dark.svg')
 sha256sums=('e03bede3d258d680548696623d5979c6edf03272e801a813c81ba5a5c64f4f82'
             'ed0cb4f1db4021f8c3b5ce78fdf91d2c0624708f58f36c9cf867f4d93c3bc6da'
             'e54626e74ed8fee4173b62a545ab1c3a3a069e4217a0ee8fc398d9933e9c1696'
@@ -126,7 +126,7 @@ package() {
   install -D -m755 "$srcdir"/env-generator usr/lib/systemd/system-environment-generators/10-arch
 
   # add logo
-  install -D -m644 "$srcdir"/archlinux-logo{.png,.svg,-text.svg,-text-dark.svg} usr/share/pixmaps
+  install -D -m644 "$srcdir"/avdanos-logo{.png,.svg,-text.svg,-text-dark.svg} usr/share/pixmaps
 }
 
 # vim:set ts=2 sw=2 et:
