@@ -1,11 +1,11 @@
 NAME="AvdanOS"
-PRETTY_NAME="AvdanOS Alpha 0.1"
+PRETTY_NAME="AvdanOS Alpha One"
 ID=avdanos
 ID_LIKE=arch
 BUILD_ID=rolling
 ANSI_COLOR="0;34;1"
-HOME_URL="https://placeholder.org/"
-DOCUMENTATION_URL="https://wiki.placeholder.org/"
-SUPPORT_URL="https://bbs.placeholder.org/"
-BUG_REPORT_URL="https://bugs.placeholder.org/"
+HOME_URL="https://github.com/AvdanDOE"
+DOCUMENTATION_URL="https://github.com/AvdanDOE/.github/blob/main/profile/README.md"
+SUPPORT_URL="https://github.com/AvdanDOE/base_os_image_oss"
+BUG_REPORT_URL="https://github.com/AvdanDOE/base_os_image_oss/issues"
 LOGO=avdanos-logo
