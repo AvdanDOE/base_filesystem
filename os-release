@@ -1,11 +1,14 @@
 NAME="AvdanOS"
-PRETTY_NAME="AvdanOS Alpha One"
+PRETTY_NAME="AvdanOS pipeline_codename"
+VARIANT_ID="pipeline_variantID"
+VERSION="pipeline_version"
+VERSION_ID="pipeline_versionID"
 ID=avdanos
 ID_LIKE=arch
 BUILD_ID=rolling
 ANSI_COLOR="0;34;1"
 HOME_URL="https://github.com/AvdanDOE"
 DOCUMENTATION_URL="https://github.com/AvdanDOE/.github/blob/main/profile/README.md"
-SUPPORT_URL="https://github.com/AvdanDOE/base_os_image_oss"
-BUG_REPORT_URL="https://github.com/AvdanDOE/base_os_image_oss/issues"
+SUPPORT_URL="https://github.com/AvdanDOE/image_issuetracker"
+BUG_REPORT_URL="https://github.com/AvdanDOE/image_issuetracker/issues"
 LOGO=avdanos-logo
